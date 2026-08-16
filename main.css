@@ -1,6 +1,7 @@
 .main_container img{
-    width: 580px;
-    height: 290px;
+    width: 100%;
+    height: auto;
+    display: block;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
     cursor: pointer;
@@ -73,7 +74,8 @@
     position: relative;
     margin-right: 15px;
     padding-bottom: 65px;
-    
+    flex: 1;
+    overflow: hidden;
 
 }
 .main_right{
@@ -81,7 +83,8 @@
     background-color: white;
     padding-bottom: 65px;
     border-radius: 18px;
-
+    flex: 1;
+    overflow: hidden;
 
 }
 .main_section{
@@ -98,8 +101,9 @@
 }
 /*--------main part two----------- */
 .second_left img{
-    /* width: 580px; */
-    height: 290px;
+    width: 100%;
+    height: auto;
+    display: block;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
     cursor: pointer;
@@ -161,8 +165,9 @@
 
 }
 .free_img{
-    width: 580px;
-    /* height: 580px; */
+    width: 100%;
+    height: auto;
+    display: block;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
     cursor: pointer;
@@ -178,12 +183,16 @@
     background-color: white;
     position: relative;
     margin-right: 15px;
+    flex: 1;
+    overflow: hidden;
 }
 .second_right{
     position: relative;
     background-color: white;
     border-radius: 18px;
     padding-bottom: 65px;
+    flex: 1;
+    overflow: hidden;
 }
 .second_section{
     background-color: rgb(245, 235, 220);
@@ -198,13 +207,12 @@
 }
 /* ----------last section-------- */
 .last_section img{
-    width: 580px;
-    height: 290px;
+    width: 100%;
+    height: auto;
+    display: block;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
     cursor: pointer;
-
-    
 }
 .last_section_heading{
     line-height: 28px;
@@ -244,7 +252,7 @@
 .last_section_container{
     padding-left: 172px;
     padding-right: 172px;
-    width: 596px;
+    display: flex;
 }
 .last_left{
     border-radius: 18px;
@@ -252,6 +260,8 @@
     position: relative;
     margin-right: 15px;
     padding-bottom: 65px;
+    flex: 1;
+    overflow: hidden;
 }
 .last_section{
     background-color: rgb(245, 235, 220);
@@ -272,6 +282,8 @@
     position: relative;
     margin-right: 15px;
     padding-bottom: 65px;
+    flex: 1;
+    overflow: hidden;
 }
 
 
