@@ -2,7 +2,7 @@
 
 A landing page clone of the official **Burger King** website, built purely with **HTML5** and **CSS3**.
 
-🌐 **Live Demo:** [https://ajithnp.github.io/KING_BERGER/](https://ajithnp.github.io/KING_BERGER/)
+🌐 **Live Demo:** https://ajithnp.github.io/burger-king-landing-page/
 
 ---
 
